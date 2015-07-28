@@ -67,7 +67,7 @@ class DoorBot(irc.bot.SingleServerIRCBot):
         elif cmd == "license":
             self.connection.privmsg(
                 self.channel,
-                "AGPL; please ask NegativeK for my source."
+                "AGPL; https://github.com/NegativeK/doormon"
             )
 
 class Door(object):
